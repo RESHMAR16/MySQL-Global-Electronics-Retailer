@@ -23,7 +23,7 @@ From Sales;
 Select Count(distinct Name)
 from customers;
 
-# Cities of italy
+# Cities of Italy
 SELECT City
 FROM customers
 where Country = 'Italy';
